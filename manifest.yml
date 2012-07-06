@@ -1,0 +1,13 @@
+--- 
+applications: 
+  .: 
+    mem: 128M
+    url: ${name}.${target-base}
+    framework: 
+      info: 
+        mem: 128M
+        exec: ruby hello.rb
+        description: Sinatra Application
+      name: sinatra
+    name: g-sample-app
+    instances: 1
